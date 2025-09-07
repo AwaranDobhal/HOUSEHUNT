@@ -13,16 +13,6 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="my-navbar">
             <ul class="navbar-nav align-items-center">
-                <li class="nav-item">
-                        <a class="nav-link btn px-4 py-2" style="background-color:#2980B9; color:#fff;" href="explore.php">
-                            <i class="fas fa-search-location"></i> Explore
-                        </a>
-                </li>
-                </li>
-                    <a class="nav-link btn px-4 py-2" style="background-color:#34495E; color:#fff;" href="about.php">
-                        <i class="fas fa-info-circle"></i> About
-                    </a>
-                </li>
                 <?php
                 //Check if user is logged in or not
                 if (!isset($_SESSION["user_id"])) {
