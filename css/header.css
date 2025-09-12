@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-decoration: none;
+    height: 70px;
+}
+
+.logo-img {
+    height: 80px !important;
+    width: 120px !important;
+    display: block;
+}
+
+.brand-text {
+    margin-left: 20px;
+    font-size: 2.5rem;
+    color: #04ad0f;
+    font-style: sans-serif;
+}
+
+.tagline {
+    font-size: 1.25rem;
+    color: #a618d1 !important;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 0.95rem;
+    color: #c721e4;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #2980b9;
+}
+
+.signup-btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #0dbdea;
+    border: 1px solid #bdc3c7;
+    color: #ffffff!important;
+}
+
+.signup-btn:hover{
+    background-color: #036590;
+}
+
+.login-btn {
+    margin-right: 1rem;
+    padding: 7px 16px !important;
+    border-radius: 4px;
+    background-color: #04ad0f;
+    border: 1px solid #bdc3c7;
+    color: white !important;
+}
+
+.login-btn:hover {
+    background-color: #03771e;
+}
+
+.dashboard-btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #f39c12;
+    border: 1px solid #bdc3c7;
+    color: white !important;
+}
+
+.dashboard-btn:hover {
+    background-color: #b77408;
+}
+
+.logout-btn {
+    margin-right: 1rem !important;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #e3200a;
+    border: 1px solid #bdc3c7;
+    color: white !important;
+}
+
+.logout-btn:hover {
+    background-color: #a40707;
+}
+
+.nav-vl {
+    width: 1px;
+    height: 25px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+.nav-name {
+    font-size: 0.95rem;
+    color: #2c3e50;
+    margin-right: 10px;
+}
+
+.nav-name a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.nav-name a:hover {
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
