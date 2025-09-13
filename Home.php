@@ -34,8 +34,8 @@ session_start();
             </div>
         </form>
         <div class="mt-4">
-            <a href="property_list.php" class="btn btn-outline-light">Explore</a>
-            <a href="contact.php" class="btn btn-outline-info ml-2">Contact Us</a>
+            <a href="" class="btn btn-outline-light">Explore</a>
+            <a href="" class="btn btn-outline-info ml-2">Contact Us</a>
         </div>
         <div class="mt-4">
             <span class="badge badge-success">Verified Listings</span>
