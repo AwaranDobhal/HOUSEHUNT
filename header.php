@@ -12,10 +12,9 @@
 </head>
 <body>
 
-    <!-- Header Section -->
     <div class="header sticky-top bg-white shadow-sm">
         <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand d-flex align-items-center" href="index.php">
+            <a class="navbar-brand d-flex align-items-center" href="Home.php">
                 <img src="img/logo.png" alt="HouseHunt Logo" class="logo-img" />
                 <span class="brand-text">HOUSEHUNT</span>
             </a>
@@ -42,7 +41,7 @@
                         </li>
                     <?php } else { ?>
                         <div class="nav-name">
-                            Hi, <a href="./index.php"><?php echo $_SESSION["full_name"] ?></a>
+                            Hi, <a href="./Home.php"><?php echo $_SESSION["full_name"] ?></a>
                         </div>
                         <li class="nav-item">
                             <a class="nav-link btn dashboard-btn" href="dashboard.php" title="Go to your dashboard">

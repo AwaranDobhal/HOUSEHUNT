@@ -86,6 +86,7 @@
         </div>
     </div>
 </div>
+
 <script>
 document.getElementById('signup-form').addEventListener('submit', function(e) {
     var password = document.querySelector('input[name="password"]').value;
