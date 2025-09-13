@@ -3,7 +3,7 @@ session_start();
 require "database_connect.php";
 
 if (!isset($_SESSION["user_id"])) {
-    header("location: Home.php");
+    header("location: index.php");
     die();
 }
 $user_id = $_SESSION['user_id'];
@@ -53,7 +53,7 @@ $interested_properties = mysqli_fetch_all($result_2, MYSQLI_ASSOC);
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb py-2">
             <li class="breadcrumb-item">
-                <a href="Home.php">Home</a>
+                <a href="index.php">Home</a>
             </li>
             <li class="breadcrumb-item active" aria-current="page">
                 Dashboard

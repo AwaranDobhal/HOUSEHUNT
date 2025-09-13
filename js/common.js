@@ -48,7 +48,7 @@ var signup_success = function (event) {
     var response = JSON.parse(event.target.responseText);
     if (response.success) {
         alert(response.message);
-        window.location.href = "Home.php";
+        window.location.href = "index.php";
     } else {
         alert(response.message);
     }

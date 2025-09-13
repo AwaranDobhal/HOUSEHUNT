@@ -14,7 +14,7 @@
 
     <div class="header sticky-top bg-white shadow-sm">
         <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand d-flex align-items-center" href="Home.php">
+            <a class="navbar-brand d-flex align-items-center" href="inex.php">
                 <img src="img/logo.png" alt="HouseHunt Logo" class="logo-img" />
                 <span class="brand-text">HOUSEHUNT</span>
             </a>
